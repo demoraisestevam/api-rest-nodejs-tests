@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Simple API Rest with nodejs and express",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "nodemon express.js" 
+  },
   "author": "demoraisestevam",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
   }
 }

@@ -1,0 +1,31 @@
+# Extension REST Client
+
+###
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+  "name": "Black Shoes",
+  "price": 119.90
+}
+
+###
+GET http://localhost:4002/products
+
+
+###
+GET http://localhost:4002/products/e9315d25-eca3-4636-9b96-3d6264207fd4
+
+
+###
+PUT http://localhost:4002/products/e9315d25-eca3-4636-9b96-3d6264207fd4
+content-type: application/json
+
+{
+  "name": "Red Shirt",
+  "price": 59.90
+}
+
+
+###
+DELETE http://localhost:4002/products/e9315d25-eca3-4636-9b96-3d6264207fd4
